@@ -6,6 +6,15 @@ html,body,header, #intro{
       -webkit-background-size: cover;
       background-size: cover;
   }
+html,body,header, #intro1{
+      height: 100%;
+  }
+    #intro1{
+        background: url(../img/photo1.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
 .top-nav-collapse{
   background-color: #000;
 }
@@ -13,4 +22,19 @@ html,body,header, #intro{
     .navbar:not(.top-nav-collapse){
         background: #000;
     }
+}
+
+.krestiki_noliki{
+    width: 306px;
+    margin: 0 auto;
+}
+.krestiki_noliki .block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-size: 100px;
+    line-height: 94px;
 }

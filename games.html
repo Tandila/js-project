@@ -35,7 +35,7 @@
               <ul class="navbar-nav mr-auto smooth-scroll">
                 <a href="#" class="nav-link waves-effect waves-light">მუსიკები</a>
               <ul class="navbar-nav mr-auto smooth-scroll">
-                <a href="#" class="nav-link waves-effect waves-light">თამაშები</a>
+                <a href="games.html" class="nav-link waves-effect waves-light">თამაშები</a>
               <ul class="navbar-nav mr-auto smooth-scroll">
                 <a href="#" class="nav-link waves-effect waves-light">დახმარება</a>
 
@@ -57,7 +57,7 @@
             </div>
       </div>
     </nav>
-    <div id="intro" class="view">
+    <div id="intro1" class="view">
         <div class="mask rgba-black-strong">
           <div class="container-fluid d-flex align-items-center justify-content-center h-100">
               <div class="row d-flex justify-content-center text-center">
@@ -92,7 +92,7 @@
                       <h6 class="mb-0 white-text">იყავი ხაზზე</h6>
                   </div>
                   <div class="col-md-6 col-lg-7 text-center text-md-right">
-                      <a href="https://facebook.com/geondila" target="_blank class="fb-ic ml-0">
+                      <a href="https://facebook.com/geondila" target="_blank class" fb-ic ml-0>
                         <i class="fa fa-facebook white-text mr-4"></i>
                       </a>
                   </div>
@@ -150,14 +150,14 @@
   <script type="text/javascript">
   $(document).ready(function(){
 
-  	var znak_user = 'O';
-  	var znak_comp = 'X';
+  	var znak_user = 'X';
+  	var znak_comp = 'O';
 
   	var rand_num = Math.round((Math.random() * (9 - 1) + 1));
 
   	if( rand_num > 3 ){
-  		var znak_comp = 'O';
-  		var znak_user = 'X';
+  		var znak_comp = 'X';
+  		var znak_user = 'O';
   		$('.cell'+rand_num).text(znak_comp);
   	}
 
