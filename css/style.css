@@ -1,59 +1,6 @@
-html,body,header, #intro{
-    height: 100%;
-}
-  #intro{
-      background: url(../img/photo.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      background-size: cover;
-  }
-html,body,header, #intro1{
-      height: 100%;
-  }
-    #intro1{
-        background: url(../img/photo1.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        background-size: cover;
-    }
-html,body,header, #music_1{
-    height: 100%;
-}
-  #music_1{
-      background: url(../img/photo3.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      background-size: cover;
-  }
-html,body,header, #help_1{
-    height: 100%;
-}
-  #help_1{
-      background: url(../img/photo4.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      background-size: cover;
-  }
-html,body,header, #chinese_1{
-  height: 100%;
-}
-#chinese_1{
-    background: url(../img/photo5.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-html,body,header, #japanese_1{
-height: 100%;
-}
-#japanese_1{
-  background: url(../img/photo6.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-
-.top-nav-collapse{
-  background-color: #000;
-}
-@media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse){
-        background: #000;
-    }
+.body{
+	font-family:verdana;
+	color:#444;
 }
 
 .krestiki_noliki{
@@ -67,6 +14,6 @@ height: 100%;
     cursor: pointer;
     float: left;
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
     line-height: 94px;
 }
