@@ -24,7 +24,7 @@ var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'A
 			daachira = 1;
 			$("#wona2").toggleClass("show");
 		}
-
+	
 		function addWona() {
 			if($("#wona").val()<0) {
 				alert("რანაირად? "  + $("#wona").val());
