@@ -1,12 +1,12 @@
-.body{
+body{
 	font-family:verdana;
     color:#444;
-    
 }
 .krestiki_noliki{
     width: 306px;
     margin: 0 auto;
 }
+
 .krestiki_noliki .block{
     width: 100px;
     height: 100px;
@@ -31,4 +31,3 @@
 @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}
 @keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor
  {-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
- 	
