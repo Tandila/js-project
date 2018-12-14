@@ -1,6 +1,7 @@
 .body{
 	font-family:verdana;
-	color:#444;
+    color:#444;
+    
 }
 
 .krestiki_noliki{
@@ -17,3 +18,18 @@
     font-size: 100px;
     line-height: 94px;
 }
+
+.canvas{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.show {
+    display: block!important;
+}
+
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}
+@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor
+ {-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
+ 	
